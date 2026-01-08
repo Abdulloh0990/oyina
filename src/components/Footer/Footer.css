@@ -1,0 +1,108 @@
+.footer__section {
+  background-color: #1d7cff;
+  color: white;
+  margin: 40px 20px 20px 20px;
+  padding: 50px 60px 20px 60px;
+  border-radius: 40px 40px 0 0;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer__brand {
+  max-width: 300px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.logo__icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.footer__logo h3 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.footer__logo p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.footer__desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.footer__links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.footer__bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+
+@media (max-width: 480px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__brand,
+  .footer__links,
+  .footer__contact {
+    max-width: 100%;
+  }
+
+}

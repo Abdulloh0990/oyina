@@ -1,0 +1,64 @@
+.Container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;}
+
+    .tash__text1{
+        /* Tasviriy san’at va dizayn sohasida innovatsion yechimlar, yuqori sifatli xizmatlar va ijodiy qo‘llab-quvvatlashni taqdim etamiz. Bizning jamoamiz sizning tasviriy ijodiyatingizni yangi bosqichga olib chiqishga tayyor. */
+
+width: 569px;
+height: 84px;
+
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+color: #444444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+    }
+
+    .tash__btn{
+        width: 100px;
+height: 40px;
+background: blue;
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+border-radius: 20px;
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-top: 30px;
+    }
+
+@media only screen and (max-width: 480px) {
+
+    .tash__img{
+        display: none;
+    }
+    .tash__text1{
+        width: 300px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tash__btn{
+        display: none;
+    }
+}

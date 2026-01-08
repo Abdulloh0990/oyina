@@ -1,0 +1,57 @@
+.Container1{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+li{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.nav__btn{
+    /* Text */
+
+width: 100px;
+height: 40px;
+background: blue;
+font-family: 'Advent Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+border-radius: 20px;
+color: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+@media only screen and (max-width: 480px) {
+
+    .Container1{
+        padding: 20 100px;
+    }
+    ul{
+        display: none;
+    }
+}
